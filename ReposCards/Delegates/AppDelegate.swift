@@ -6,7 +6,7 @@ import UIKit
 import UserNotifications
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterDelegate {
 
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
     // Adding in a request for notifications
@@ -43,17 +43,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     print(token)
   }
   
+  
+  func userNotificationCenter(
+    _ center: UNUserNotificationCenter,
+    willPresent notification: UNNotification,
+    withCompletionHandler completionHandler:
+    @escaping (UNNotificationPresentationOptions) -> Void) {
+
+    completionHandler([.alert, .sound, .badge])
+  }
+  
+  
+  
 }
 
-//extension AppDelegate: UNUserNotificationCenterDelegate {
-//  func userNotificationCenter(
-//    _ center: UNUserNotificationCenter,
-//    willPresent notification: UNNotification,
-//    withCompletionHandler completionHandler:
-//    @escaping (UNNotificationPresentationOptions) -> Void) {
-//
-//    completionHandler([.alert, .sound, .badge])
-//  }
-//}
 
 
