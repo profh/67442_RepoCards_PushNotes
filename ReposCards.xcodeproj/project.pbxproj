@@ -19,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E7563A2823839A93003D2EE7 /* Payload1.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = Payload1.geojson; sourceTree = "<group>"; };
+		E77477FE2382394000A4062B /* ReposCards.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ReposCards.entitlements; sourceTree = "<group>"; };
 		E7B1BC842360A5DC0039253E /* ReposCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReposCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7B1BC872360A5DC0039253E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7B1BC892360A5DC0039253E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +64,8 @@
 		E7B1BC862360A5DC0039253E /* ReposCards */ = {
 			isa = PBXGroup;
 			children = (
+				E7D27E0623839A0B00C11E7C /* Payloads */,
+				E77477FE2382394000A4062B /* ReposCards.entitlements */,
 				E7B1BCB423615A020039253E /* Delegates */,
 				E7B1BCB2236159CC0039253E /* Models */,
 				E7B1BCB1236159B20039253E /* Views */,
@@ -106,6 +110,14 @@
 				E7B1BC892360A5DC0039253E /* SceneDelegate.swift */,
 			);
 			path = Delegates;
+			sourceTree = "<group>";
+		};
+		E7D27E0623839A0B00C11E7C /* Payloads */ = {
+			isa = PBXGroup;
+			children = (
+				E7563A2823839A93003D2EE7 /* Payload1.geojson */,
+			);
+			path = Payloads;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -320,6 +332,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ReposCards/ReposCards.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ReposCards/Preview Content\"";
 				DEVELOPMENT_TEAM = X94WPSRU4C;
@@ -340,6 +353,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ReposCards/ReposCards.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ReposCards/Preview Content\"";
 				DEVELOPMENT_TEAM = X94WPSRU4C;

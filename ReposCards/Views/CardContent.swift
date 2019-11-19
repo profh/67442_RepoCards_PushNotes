@@ -21,6 +21,7 @@ struct CardContent: View {
                   .font(.title)
                   .fontWeight(.black)
                   .foregroundColor(.primary)
+              .padding(5)
             Text(repoCard.tagline.uppercased())
                   .font(.caption)
                   .foregroundColor(.secondary)
