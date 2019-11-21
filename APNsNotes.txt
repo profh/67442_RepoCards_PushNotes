@@ -1,6 +1,0 @@
-AuthKey ID path: /Users/profh/Projects/AuthKey_CLGVW96UKN.p8
-AuthKey ID: CLGVW96UKN
-Team ID: X94WPSRU4C
-Bundle ID: cmuis.ReposCards
-Device ID: 63616031243a323f1353e4bac78c738edf0890d8b47d9a851854463feb45febb
-IPv4 Address: 
