@@ -3,4 +3,3 @@ AuthKey ID:
 Team ID:
 Bundle ID: 
 Device ID: 
-IPv4 Address: 

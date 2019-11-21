@@ -2,7 +2,7 @@
   "aps": {
     "alert" : {
       "title": "New Repo",
-      "body": "A new repo has been found that relates to Swift and APN."
+      "body": "A new repo -- called PushNotifications -- has been found that relates to Swift and APN."
     }
   }
 }
